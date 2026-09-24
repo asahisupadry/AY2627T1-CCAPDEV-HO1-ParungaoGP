@@ -1,0 +1,77 @@
+/* my css for HO2 */
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: lightblue;
+  color: navy;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+header p {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+a {
+  color: red;
+}
+
+img {
+  width: 300px;
+}
+
+video {
+  width: 500px;
+}
+
+table {
+  border: 2px solid black;
+  background-color: white;
+}
+
+th {
+  background-color: yellow;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}
+
+fieldset {
+  border: 2px solid darkblue;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid navy;
+  margin-top: 30px;
+}
