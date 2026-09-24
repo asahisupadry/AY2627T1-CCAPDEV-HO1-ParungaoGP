@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travels &amp; Contact | Juanka Parungao</title>
+</head>
+<body id="top">
+
+<header>
+<h1>Juanka</h1>
+<p>IT student, backpacker, and home cook</p>
+<nav aria-label="Main">
+<ul>
+<li><a href="index.html">About Me</a></li>
+<li><a href="travels.html" aria-current="page">Travels &amp; Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+
+<nav aria-label="On this page">
+<p>Jump to:</p>
+<ul>
+<li><a href="#travel-log">Travel log</a></li>
+<li><a href="#trip-video">Trip video</a></li>
+<li><a href="#contact-form">Contact form</a></li>
+</ul>
+</nav>
+
+<section id="travel-log">
+<h2>Travel Log</h2>
+<table>
+<caption>Places I've been to through backpacking</caption>
+<thead>
+<tr>
+<th scope="col">Destination</th>
+<th scope="col">Country</th>
+<th scope="col">Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Vietnam</th>
+<td>Vietnam</td>
+<td><time datetime="2024">2024</time></td>
+</tr>
+<tr>
+<th scope="row">Laos</th>
+<td>Laos</td>
+<td><time datetime="2024">2024</time></td>
+</tr>
+<tr>
+<th scope="row">Dumaguete / Siquijor</th>
+<td>Philippines</td>
+<td><time datetime="2024">2024</time></td>
+</tr>
+<tr>
+<th scope="row">Palawan</th>
+<td>Philippines</td>
+<td><time datetime="2025">2025</time></td>
+</tr>
+<tr>
+<th scope="row">Camiguin</th>
+<td>Philippines</td>
+<td><time datetime="2025">2025</time></td>
+</tr>
+<tr>
+<th scope="row">Panglao</th>
+<td>Philippines</td>
+<td><time datetime="2026">2026</time></td>
+</tr>
+<tr>
+<th scope="row">Hong Kong</th>
+<td>Hong Kong</td>
+<td><time datetime="2026">2026</time></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="trip-video">
+<h2>Trip Video</h2>
+<video controls width="640">
+<source src="video1.mp4" type="video/mp4">
+Your browser does not support the video element.
+</video>
+<p>A short clip from one of my trips.</p>
+</section>
+
+<section id="contact-form">
+<h2>Contact Form</h2>
+<p>Want to swap travel tips or cook together? Fill this out. Submitting opens your email app with the message addressed to me.</p>
+
+<form action="mailto:giancarlo_parungao@dlsu.edu.ph" method="post" enctype="text/plain">
+
+<fieldset>
+<legend>About you</legend>
+
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Your name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+<label for="whatsapp">WhatsApp number (optional)</label>
+<input type="tel" id="whatsapp" name="whatsapp" placeholder="+63 900 000 0000">
+
+<label for="group-size">How many people are you bringing?</label>
+<input type="number" id="group-size" name="group-size" min="1" max="20" value="1">
+</fieldset>
+
+<fieldset>
+<legend>How should I reply?</legend>
+<label class="choice"><input type="radio" name="contact-method" value="WhatsApp" required> WhatsApp</label>
+<label class="choice"><input type="radio" name="contact-method" value="Email"> Email</label>
+<label class="choice"><input type="radio" name="contact-method" value="Instagram"> Instagram</label>
+</fieldset>
+
+<fieldset>
+<legend>What's it about?</legend>
+<label class="choice"><input type="checkbox" name="topic" value="Backpacking tips"> Backpacking tips</label>
+<label class="choice"><input type="checkbox" name="topic" value="Cooking together"> Cooking together</label>
+<label class="choice"><input type="checkbox" name="topic" value="IT and school"> IT and school</label>
+
+<label for="trip">Asking about a trip?</label>
+<select id="trip" name="trip">
+<option value="none">Not about a specific trip</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Laos">Laos</option>
+<option value="Dumaguete / Siquijor">Dumaguete / Siquijor</option>
+<option value="Palawan">Palawan</option>
+<option value="Camiguin">Camiguin</option>
+<option value="Panglao">Panglao</option>
+<option value="Hong Kong">Hong Kong</option>
+</select>
+
+<label for="free-date">Date you're free to chat</label>
+<input type="date" id="free-date" name="free-date">
+</fieldset>
+
+<fieldset>
+<legend>Your message</legend>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" placeholder="Write your message here"></textarea>
+</fieldset>
+
+<button type="submit">Send message</button>
+<button type="reset">Clear form</button>
+</form>
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2026 Juanka Parungao. Made with plain HTML for CCAPDEV.</p>
+<p><a href="#top">Back to top</a> | <a href="index.html">About Me</a> | <a href="https://www.instagram.com/bumbum.gi/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+</footer>
+
+</body>
+</html>
